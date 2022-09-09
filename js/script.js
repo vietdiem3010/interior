@@ -11,4 +11,11 @@ $(document).ready(function(){
       nextArrow: $('.arrow_right_slider'),
     });
     $('.clients__slider').slick();
+
+    
+  AOS.init({ 
+    offset: 0, 
+    duration: 1000, 
+    easing: 'ease-in-sine' 
+  }); 
 });
