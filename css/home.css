@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -3598,3 +3599,10 @@
     transform: translateZ(1px) rotate(0.001deg);
   }
   
+=======
+@media screen and (min-width: 1200px) {
+  [data-v-4ea7cf5f] .footer {
+    display: none;
+  }
+}
+>>>>>>> 5c4ec4869deaa2ead07dfaca90d8fcd9ade5d1af
