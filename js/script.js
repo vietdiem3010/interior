@@ -39,8 +39,8 @@ $(document).ready(function () {
 
   $('button[aria-label="Menu"]').on("click", function () {
     $(this).toggleClass("b_active");
-    $(".menu_type_2").toggleClass("menu_open");
-    $(".h_type_2").toggleClass("h_fixed_super");
+    $(".menu_type_2, .menu_type_1").toggleClass("menu_open");
+    $(".h_type_2, .h_type_1").toggleClass("h_fixed_super");
   });
   $("#nav_about, #nav_about span").hover(function () {
     $('.menu__bg[data-id="about"]').addClass("menu__bg_active");
