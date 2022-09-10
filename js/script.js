@@ -69,4 +69,28 @@ $(document).ready(function () {
   $("#nav_contact").mouseout(function () {
     $('.menu__bg[data-id="contact"]').removeClass("menu__bg_active");
   });
+
+
+
+  $('.cont__btn').on('click', function () {
+    $('.calc').addClass('calc_active');
+  });
+  $('.calc__close, .modal__close').on('click', function () {
+    $('.calc').removeClass('calc_active');
+  });
+
+  $('.form__line input').blur(function () {
+    if (!$(this).val()) {
+      $(this).closest('.form__line label').removeClass('full');
+    }
+  });
+  $('.form__line input').each(function () {
+    var text_value = $(this).val();
+    if (text_value != "" || $(this).is(':focus')) {
+      $(this).closest('.form__line label').addClass('full');
+    }
+  });
+  $('.form__line input').focus(function () {
+    $(this).parent().find('label').addClass('full');
+  });
 });

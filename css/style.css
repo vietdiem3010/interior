@@ -3359,3 +3359,789 @@ svg .circle__c2.back[data-v-30c09de4] {
   transition: transform 0.7s ease 0.5s;
   transform: translateZ(1px) rotate(0.001deg);
 }
+
+.calc {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.88);
+  overflow-y: hidden;
+  z-index: 4;
+  pointer-events: none;
+  transition: opacity 0.3s ease, visibility 0.3s step-end;
+  opacity: 0;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc_active {
+  pointer-events: all;
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 0.3s ease, visibility 0s step-start;
+}
+
+.calc_active .calc__modal {
+  transform: translate3d(1px, 1px, 1px);
+  opacity: 1;
+}
+
+.calc__close {
+  position: fixed;
+  top: 36px;
+  right: 36px;
+  cursor: pointer;
+}
+
+.calc__close img {
+  max-width: 16px;
+}
+
+.calc:before {
+  content: "";
+  height: 100%;
+}
+
+.calc:before,
+.calc__container {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.calc__container {
+  width: 100%;
+}
+
+.calc__modal {
+  margin: 0 auto;
+  width: 942px;
+  height: 716px;
+  background-color: #f5f5f3;
+  transform: translate3d(1px, 50px, 1px);
+  position: relative;
+  transition: opacity 1s ease, transform 1s ease;
+  opacity: 0;
+}
+
+.calc__modal:before {
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+}
+
+.calc .modal__container {
+  width: 100%;
+  display: inline-block;
+  vertical-align: middle;
+  padding-top: 82px;
+}
+
+.calc .modal__content {
+  text-align: center;
+}
+
+.calc .modal__title {
+  font: 700 38px/38px "Avanti", sans-serif;
+  color: #1c1c1c;
+  max-width: 300px;
+  margin: 0 auto;
+  padding-left: 2px;
+}
+
+.calc .modal__label {
+  margin-top: 15px;
+}
+
+.calc .modal__form {
+  width: 359px;
+  margin: 0 auto;
+  padding-top: 16px;
+}
+
+.calc .modal__close {
+  display: none;
+}
+
+.calc .modal .form__line {
+  width: 100%;
+  display: table;
+  margin-top: -12px;
+}
+
+.calc .modal .form__line_white-space {
+  white-space: nowrap;
+}
+
+.calc .modal .form__line_urgency {
+  display: block;
+  text-align: left;
+  margin-top: 30px;
+}
+
+.calc .modal .form__line_message input {
+  padding: 24px 0 !important;
+}
+
+.calc .modal .form__line:nth-child(6) {
+  margin-top: 4px;
+  text-align: left;
+  display: block;
+}
+
+.calc .modal .form__line label {
+  display: table-header-group;
+  width: 100%;
+  text-align: left;
+  font: 400 14px/20px "Fatum", sans-serif;
+  color: #1c1c1c;
+  transform-origin: top left;
+  transition: all 0.3s ease;
+  transform: translate3d(0, 100%, 1px) scale(1);
+  pointer-events: none;
+}
+
+.calc .modal .form__line input {
+  display: table-footer-group;
+  width: 100%;
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid hsla(0, 0%, 71.8%, 0.35);
+  font: 400 14px/22px "Fatum", sans-serif;
+  color: #1c1c1c;
+  transition: border-color 0.3s ease;
+  margin-bottom: -4px;
+  padding-bottom: 6px;
+  height: 30px;
+}
+
+.calc .modal .form__line input:active+label,
+.calc .modal .form__line input:focus+label {
+  transform: scale(0.7) translate3d(0, 6px, 1px);
+}
+
+.calc .modal .form__error {
+  float: right;
+  font: 400 10px/22px "Fatum", sans-serif;
+  color: #dc4242;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+  opacity: 0;
+  display: inline;
+}
+
+.calc .modal .form__file {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.calc .modal .form__col {
+  display: flex;
+  align-items: center;
+  height: 22px;
+}
+
+.calc .modal .form__col input {
+  width: 0;
+  height: 0;
+  outline: 0;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.calc .modal .form__col_attach {
+  cursor: pointer;
+}
+
+.calc .modal .form__text {
+  font-family: "Fatum";
+  font-style: normal;
+  font-size: 9px;
+  line-height: 22px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #1c1c1c;
+  margin-bottom: -4px;
+  margin-left: 10px;
+}
+
+.calc .modal .form__file-name {
+  font-size: 14px;
+  color: #1c1c1c;
+  margin-left: 10px;
+}
+
+.calc .modal .form__delete {
+  cursor: pointer;
+}
+
+.calc .modal .form__fantom {
+  float: right;
+  font: 400 10px/22px "Fatum", sans-serif;
+  display: none;
+  display: inline;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.calc .modal .form__radio {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 60px;
+}
+
+.calc .modal .form__radio:first-child,
+.calc .modal .form__radio:nth-child(2) {
+  margin-right: 55px;
+}
+
+.calc .modal .form__radio:nth-child(3) {
+  margin-right: 70px;
+}
+
+.calc .modal .form__radio:last-child {
+  margin-right: 0;
+}
+
+.calc .modal .form__radio label {
+  display: block;
+  pointer-events: all;
+  cursor: pointer;
+}
+
+.calc .modal .form__radio input {
+  display: block;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 1px solid #474747;
+  margin: 26px auto 0;
+  cursor: pointer;
+}
+
+.calc .modal .form__radio input:checked {
+  background-color: #474747;
+  box-shadow: inset 0 0 0 2px #f5f5f3;
+}
+
+.calc .modal .form__urgency {
+  width: 66%;
+  height: 1px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 13px;
+}
+
+.calc .modal .form .urgency__before {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #bfbfbf;
+  z-index: 2;
+  transform-origin: top right;
+}
+
+.calc .modal .form__title {
+  display: inline-block;
+  font: 400 14px/22px "Fatum", sans-serif;
+  color: #1c1c1c;
+  padding-left: 1px;
+  margin-right: 20px;
+  vertical-align: top;
+}
+
+.calc .modal .form__counter {
+  float: right;
+  font: 400 14px/22px "Fatum", sans-serif;
+  margin-top: 1px;
+}
+
+.calc .modal .form__btn {
+  display: block;
+  font: 700 11px/18px "Fatum", sans-serif;
+  color: #1c1c1c;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0 5px;
+  margin: 35px auto 0;
+  transform: translateX(11px);
+  overflow: hidden;
+  position: relative;
+}
+
+.calc .modal .form__btn span {
+  transform-origin: 0 0;
+}
+
+.calc .modal .form__btn span:first-child {
+  transform: translateZ(1px) rotate(0.001deg);
+}
+
+.calc .modal .form__btn span:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transform: translate3d(0, 25px, 1px) rotate(6deg);
+}
+
+.calc .modal .form__btn:after {
+  transform-origin: 100% 0;
+}
+
+.calc .modal .form__btn:after,
+.calc .modal .form__btn:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: rgba(28, 28, 28, 0.62);
+  height: 1.5px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.calc .modal .form__btn:before {
+  transform-origin: 0 0;
+  transform: scaleX(0);
+}
+
+.calc .full {
+  transform: scale(0.7) translate3d(0, 6px, 1px) !important;
+}
+
+.calc .errorfield .form__error {
+  opacity: 1 !important;
+}
+
+.calc .errorfield label {
+  color: #dc4242 !important;
+}
+
+.calc .noUi-base {
+  height: 1px;
+  background-image: linear-gradient(90deg,
+          #77ae53,
+          #f4c721 50%,
+          #d75252) !important;
+  cursor: pointer;
+}
+
+.calc .noUi-target {
+  border: 0 !important;
+}
+
+.calc .noUi-handle {
+  box-shadow: none !important;
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+  outline: none !important;
+}
+
+.calc .noUi-handle .circle {
+  width: 11px;
+  height: 11px;
+  background-color: pink;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  box-shadow: inset 0 0 0 2px #fff;
+  cursor: pointer;
+  outline: none !important;
+  border-radius: 50%;
+  border: 1px solid #fdfdfd;
+  top: 1px;
+}
+
+.calc .noUi-handle:after,
+.calc .noUi-handle:before {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .calc__modal {
+      width: 820px;
+  }
+}
+
+@media (max-width: 960px) {
+  .calc__modal {
+      width: 596px;
+      height: 762px;
+      transform: translateY(1px);
+  }
+
+  .calc__close {
+      display: none;
+  }
+
+  .calc .modal__container {
+      padding-top: 97px;
+  }
+
+  .calc .modal__close {
+      display: block;
+      position: absolute;
+      top: 32px;
+      right: 32px;
+      cursor: pointer;
+  }
+
+  .calc .modal__close img {
+      max-width: 16px;
+  }
+
+  .calc .modal .form__btn {
+      transform: translateX(15px);
+      margin-top: 52px;
+  }
+
+  .calc .modal .form__urgency {
+      margin-top: 12px;
+  }
+}
+
+@media (max-width: 650px) {
+  .calc__modal {
+      width: 86.5%;
+      height: 603px;
+      transform: translate(0);
+  }
+
+  .calc .modal__container {
+      padding-top: 46px;
+  }
+
+  .calc .modal__title {
+      max-width: 100%;
+      font-size: 26px;
+      line-height: 28px;
+      padding-left: 0;
+  }
+
+  .calc .modal__form {
+      width: 269px;
+  }
+
+  .calc .modal__close {
+      top: 15px;
+      right: 17px;
+  }
+
+  .calc .modal__close img {
+      max-width: 12px;
+  }
+
+  .calc .modal .form__line:nth-child(6) {
+      margin-top: -9px;
+  }
+
+  .calc .modal .form__line_urgency {
+      margin-top: 26px;
+  }
+
+  .calc .modal .form__radio:first-child {
+      margin-right: 23px;
+  }
+
+  .calc .modal .form__radio:nth-child(2) {
+      margin-right: 26px;
+  }
+
+  .calc .modal .form__radio:nth-child(3) {
+      margin-right: 41px;
+  }
+
+  .calc .modal .form__title {
+      float: left;
+      padding-left: 0;
+  }
+
+  .calc .modal .form__counter {
+      margin-top: -42px;
+  }
+
+  .calc .modal .form__file {
+      display: block;
+  }
+
+  .calc .modal .form__col_attach {
+      margin-bottom: 14px;
+  }
+
+  .calc .modal .form__urgency {
+      width: 100%;
+      margin-top: 18px;
+  }
+
+  .calc .modal .form__btn {
+      margin-top: 49px;
+      transform: translate(0);
+      padding: 0;
+  }
+
+  .calc .noUi-handle .circle {
+      width: 15px;
+      height: 15px;
+      top: -1px;
+  }
+}
+
+@media (max-width: 375px) {
+  .calc__modal {
+      width: 88%;
+      height: 587px;
+      transform: translateY(1px);
+  }
+
+  .calc .modal__container {
+      padding-top: 37px;
+  }
+
+  .calc .modal__close {
+      top: 10px;
+      right: 13px;
+  }
+}
+
+@media (max-width: 320px) {
+  .calc__modal {
+      height: 581px;
+      width: 292px;
+      transform: translate(0);
+  }
+
+  .calc .modal__container {
+      padding-top: 34px;
+  }
+
+  .calc .modal__form {
+      width: 252px;
+  }
+
+  .calc .modal__close {
+      top: 6px;
+      right: 10px;
+  }
+
+  .calc .modal__close img {
+      max-width: 10px;
+  }
+
+  .calc .modal .form__radio:first-child {
+      margin-right: 19px;
+  }
+
+  .calc .modal .form__radio:nth-child(2) {
+      margin-right: 18px;
+  }
+
+  .calc .modal .form__radio:nth-child(3) {
+      margin-right: 35px;
+  }
+
+  .calc .modal .form__btn {
+      margin-top: 51px;
+      line-height: 16px;
+  }
+}
+
+.can-hover .calc .form__btn:hover span:first-child {
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  transform: translateZ(1px) rotate(0.001deg);
+}
+
+.can-hover .calc .form__btn:hover span:nth-child(2) {
+  transition: transform 1s ease;
+  transform: translateZ(1px) rotate(0.001deg);
+}
+
+.can-hover .calc .form__btn:hover:after {
+  transition: transform 0.5s ease;
+  transform: scaleX(0);
+}
+
+.can-hover .calc .form__btn:hover:before {
+  transform: scaleX(1);
+  transition: transform 0.5s ease 0.5s;
+}
+
+.os-ios .calc .modal .form__line input:active+label,
+.os-ios .calc .modal .form__line input:focus+label {
+  transform: translate3d(0, 100%, 1px) scale(1);
+}
+
+.cont[data-v-05bc5bc9] {
+  display: flex;
+  height: 449px;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+}
+
+.cont__inner[data-v-05bc5bc9] {
+  text-align: center;
+  width: 360px;
+  position: relative;
+}
+
+.cont__title[data-v-05bc5bc9] {
+  font-family: "Avanti";
+  font-weight: 700;
+  font-size: 34px;
+  line-height: 37px;
+}
+
+.cont__cover[data-v-05bc5bc9] {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)),
+      linear-gradient(180deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.69));
+}
+
+.cont__btn[data-v-05bc5bc9] {
+  display: inline-block;
+  font: 700 11px/18px "Fatum", sans-serif;
+  color: #fff;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 0 5px;
+  margin-top: 40px;
+  overflow: hidden;
+  position: relative;
+}
+
+.cont__btn span[data-v-05bc5bc9] {
+  transform-origin: 0 0;
+}
+
+.cont__btn span[data-v-05bc5bc9]:first-child {
+  transform: translateZ(1px) rotate(0.001deg);
+}
+
+.cont__btn span[data-v-05bc5bc9]:nth-child(2) {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  transform: translate3d(0, 25px, 1px) rotate(6deg);
+}
+
+.cont__btn[data-v-05bc5bc9]:after {
+  transform-origin: 100% 0;
+}
+
+.cont__btn[data-v-05bc5bc9]:after,
+.cont__btn[data-v-05bc5bc9]:before {
+  content: "";
+  display: block;
+  position: absolute;
+  background: hsla(0, 0%, 100%, 0.62);
+  height: 1px;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+.cont__btn[data-v-05bc5bc9]:before {
+  transform-origin: 0 0;
+  transform: scaleX(0);
+}
+
+.cont__btn svg[data-v-05bc5bc9] {
+  margin-left: 7px;
+}
+
+.cont__btn:hover span[data-v-05bc5bc9]:first-child {
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  transform: translateZ(1px) rotate(0.001deg);
+}
+
+.cont__btn:hover span[data-v-05bc5bc9]:nth-child(2) {
+  transition: transform 1s ease;
+  transform: translateZ(1px) rotate(0.001deg);
+}
+
+.cont__btn[data-v-05bc5bc9]:hover:after {
+  transition: transform 0.5s ease;
+  transform: scaleX(0);
+}
+
+.cont__btn[data-v-05bc5bc9]:hover:before {
+  transform: scaleX(1);
+  transition: transform 0.5s ease 0.5s;
+}
+
+@media screen and (max-width: 1200px) {
+  .cont[data-v-05bc5bc9] {
+      height: 341px;
+      align-items: flex-start;
+      padding-top: 72px;
+  }
+
+  .cont__title[data-v-05bc5bc9] {
+      font-size: 26px;
+      line-height: 28px;
+  }
+
+  .cont__btn[data-v-05bc5bc9] {
+      margin-top: 28px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .cont[data-v-05bc5bc9] {
+      height: 320px;
+      padding-top: 62px;
+  }
+
+  .cont__btn[data-v-05bc5bc9] {
+      margin-top: 23px;
+  }
+
+  .cont__inner[data-v-05bc5bc9] {
+      width: 280px;
+  }
+
+  .cont__title[data-v-05bc5bc9] {
+      font-size: 26px;
+      line-height: 28px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .cont[data-v-05bc5bc9] {
+      height: 308px;
+  }
+
+  .cont__btn[data-v-05bc5bc9] {
+      margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .cont[data-v-05bc5bc9] {
+      height: 300px;
+      padding-top: 54px;
+  }
+}
