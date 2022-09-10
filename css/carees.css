@@ -281,7 +281,18 @@
     transform: scaleX(1);
     transition: transform 0.5s ease 0.5s;
 }
-
+.vi[data-v-225104c2] div[aria-hidden="true"]{
+    height: 0px;
+    overflow: hidden;
+    translate: 0.5s;
+}
+.vi.show div[aria-hidden="true"]{
+    height: auto;
+    overflow: visible;
+}
+.vi.show .vi__toggle svg rect+rect {
+    display: none;
+}
 .text[data-v-225104c2] {
     font-size: 14px;
     line-height: 22px;
