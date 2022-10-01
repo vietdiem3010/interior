@@ -293,7 +293,7 @@ html:not(.no-js) [data-aos="circle"].aos-init .play__text span[data-v-a40c411c]:
 }
 
 .poster__date[data-v-a40c411c] {
-    font: 11px "Fatum", Arial, Helvetica, sans-serif;
+    font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ebebeb;
@@ -313,14 +313,16 @@ html:not(.no-js) [data-aos="circle"].aos-init .play__text span[data-v-a40c411c]:
 }
 
 .poster__title[data-v-a40c411c] {
-    font: 700 20px/1.4 "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.4;
     color: #fff;
     max-width: 390px;
     margin-top: 15px;
 }
 
 .poster__read[data-v-a40c411c] {
-    font: 11px "Fatum", Arial, Helvetica, sans-serif;
+    font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ebebeb;
@@ -620,7 +622,7 @@ body.lang-ua .play__label[data-v-a40c411c] {
 }
 
 .card__date[data-v-64ef2455] {
-    font: 11px "Fatum", Arial, Helvetica, sans-serif;
+    font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgba(28, 28, 28, 0.7);
@@ -642,7 +644,9 @@ body.lang-ua .play__label[data-v-a40c411c] {
 }
 
 .card__title[data-v-64ef2455] {
-    font: 700 18px/1.6 "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.6;
     margin-top: 14px;
     padding-right: 40px;
     color: #1c1c1c;
@@ -729,7 +733,8 @@ body.lang-ua .play__label[data-v-a40c411c] {
 }
 
 .card__read[data-v-64ef2455] {
-    font: 11px/1 "Fatum", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1;
     color: hsla(0, 0%, 100%, 0.5);
     text-transform: uppercase;
     letter-spacing: 2px;

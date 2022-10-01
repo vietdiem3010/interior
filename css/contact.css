@@ -372,7 +372,9 @@ html:not(.no-js)
   display: none;
 }
 .contacts__title[data-v-dfac654c] {
-  font: 700 54px/1 "Avanti", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 1;
   color: #fff;
   margin-left: -135px;
   margin-bottom: 56px;

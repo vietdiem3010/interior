@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,400;0,500;0,600;1,400&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -170,7 +171,8 @@ p {
 body {
   -webkit-font-smoothing: antialiased;
   overflow: hidden;
-  font: 16px/16px "Fatum", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: 'Be Vietnam Pro', sans-serif !important;
   color: #1c1c1c;
   background-color: #f5f5f3;
 }
@@ -329,7 +331,8 @@ html:not(.no-js)
   top: calc(50% - 18px);
   right: 0;
   padding-right: 29px;
-  font: 700 11px/1 "Fatum", Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: 700;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -663,7 +666,8 @@ html:not(.no-js)
   margin-bottom: 10px;
 }
 .caption__title[data-v-4ea7cf5f] {
-  font: 700 26px/1 "Avanti", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
   color: #1c1c1c;
   white-space: nowrap;
   overflow: hidden;
@@ -695,7 +699,8 @@ html:not(.no-js)
 }
 .slider__slide_seo .slider__title[data-v-4ea7cf5f] {
   max-width: 700px;
-  font: 700 42px/1 "Avanti", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 42px;
 }
 .slider__slide_seo .slider__text[data-v-4ea7cf5f] {
   max-width: 700px;
@@ -707,7 +712,8 @@ html:not(.no-js)
   opacity: 1;
 }
 [data-v-4ea7cf5f] .slider__title {
-  font: 700 113px/1 "Avanti", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 113px;
   color: #fff;
   max-width: 600px;
   margin-bottom: 20px;
@@ -1113,7 +1119,8 @@ body.lang-ua .circle__span[data-v-4ea7cf5f] {
     transform-origin: 0 0;
   }
   .open__word[data-v-4ea7cf5f] {
-    font: 700 11px/1 "Fatum", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 11px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -1212,7 +1219,7 @@ body.lang-ua .circle__span[data-v-4ea7cf5f] {
 }
 .about-mobile[data-v-4ea7cf5f] {
   padding: 144px 0;
-  font: 16px/26px "Fatum", Arial, Helvetica, sans-serif;
+  font-size: 16px;
   color: rgba(28, 28, 28, 0.6);
   background-color: #fff;
 }
@@ -1272,7 +1279,8 @@ body.lang-ua .circle__span[data-v-4ea7cf5f] {
   max-width: 90%;
 }
 .clients__title[data-v-4ea7cf5f] {
-  font: 700 54px/1 "Avanti", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  font-size: 54px;
   color: #363636;
 }
 .clients__list[data-v-4ea7cf5f] {
@@ -1659,7 +1667,8 @@ body.lang-ua .circle__span[data-v-4ea7cf5f] {
   display: none;
 }
 .contacts__title[data-v-4ea7cf5f] {
-  font: 700 54px/1 "Avanti", Arial, Helvetica, sans-serif;
+  font-size: 54px;
+  font-weight: 700;
   color: #fff;
   margin-left: -135px;
   margin-bottom: 56px;
@@ -3014,7 +3023,8 @@ body.lang-ua .circle__span[data-v-4ea7cf5f] {
   display: block;
   height: 25%;
   border-bottom: 1px solid hsla(0, 0%, 100%, 0.08);
-  font: 700 65px/1 "Avanti", Arial, Helvetica, sans-serif;
+  font-size: 65px;
+  font-weight: 700;
   color: #fff;
   position: relative;
 }

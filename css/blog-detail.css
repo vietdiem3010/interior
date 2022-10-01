@@ -6,7 +6,8 @@
 }
 
 .similar__title[data-v-768b5034] {
-    font: 700 34px/1 "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
     color: #1c1c1c;
 }
 
@@ -151,7 +152,7 @@
 }
 
 .poster__date[data-v-768b5034] {
-    font: 11px "Fatum", Arial, Helvetica, sans-serif;
+    font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ebebeb;
@@ -171,14 +172,15 @@
 }
 
 .poster__title[data-v-768b5034] {
-    font: 700 34px/1.25 "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
     color: #fff;
     max-width: 630px;
     margin-top: 23px;
 }
 
 .poster__read[data-v-768b5034] {
-    font: 11px "Fatum", Arial, Helvetica, sans-serif;
+    font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #ebebeb;
@@ -450,7 +452,9 @@ html:not(.no-js) [data-aos="circle"].aos-animate svg .circle__c1[data-v-768b5034
 }
 
 .calc-block__title[data-v-768b5034] {
-    font: 700 34px/38px "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
     display: inline-block;
     vertical-align: middle;
     width: calc(100% - 160px);
@@ -511,7 +515,9 @@ html:not(.no-js) [data-aos="circle"].aos-animate svg .circle__c1[data-v-768b5034
 
 .card__title[data-v-768b5034] {
     color: #1c1c1c;
-    font: 700 18px/28px "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
     max-width: 620px;
 }
 
@@ -783,7 +789,9 @@ html:not(.no-js) [data-aos="circle"].aos-animate svg .circle__c1[data-v-768b5034
 .text[data-v-768b5034] h6,
 .text[data-v-768b5034] strong {
     margin: 0;
-    font: 700 18px/28px "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
     max-width: 85%;
 }
 
@@ -871,7 +879,9 @@ html:not(.no-js) [data-aos="circle"].aos-animate svg .circle__c1[data-v-768b5034
 }
 
 .content__title[data-v-768b5034] {
-    font: 700 54px/48px "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 48px;
     line-height: 1;
     max-width: 80%;
     margin-top: -7px;
@@ -1890,7 +1900,7 @@ body.lang-ua .circle__span[data-v-768b5034] {
 }
 
 .card__date[data-v-64ef2455] {
-    font: 11px "Fatum", Arial, Helvetica, sans-serif;
+    font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 2px;
     color: rgba(28, 28, 28, 0.7);
@@ -1912,7 +1922,9 @@ body.lang-ua .circle__span[data-v-768b5034] {
 }
 
 .card__title[data-v-64ef2455] {
-    font: 700 18px/1.6 "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.6;
     margin-top: 14px;
     padding-right: 40px;
     color: #1c1c1c;
@@ -1999,7 +2011,8 @@ body.lang-ua .circle__span[data-v-768b5034] {
 }
 
 .card__read[data-v-64ef2455] {
-    font: 11px/1 "Fatum", Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    line-height: 1;
     color: hsla(0, 0%, 100%, 0.5);
     text-transform: uppercase;
     letter-spacing: 2px;

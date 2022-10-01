@@ -251,7 +251,9 @@ html:not(.no-js) [data-aos="circle"].aos-animate svg .circle__c1[data-v-3b3a748b
 
 .next__title[data-v-3b3a748b] {
     color: #fff;
-    font: 700 34px/1 "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 1;
     margin-top: 11px;
 }
 
@@ -393,7 +395,9 @@ html:not(.no-js) [data-aos="circle"].aos-animate svg .circle__c1[data-v-3b3a748b
 }
 
 .calc-block__title[data-v-3b3a748b] {
-    font: 700 34px/38px "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 38px;
     display: inline-block;
     vertical-align: middle;
     width: calc(100% - 160px);
@@ -454,7 +458,9 @@ html:not(.no-js) [data-aos="circle"].aos-animate svg .circle__c1[data-v-3b3a748b
 
 .card__title[data-v-3b3a748b] {
     color: #1c1c1c;
-    font: 700 18px/28px "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
     max-width: 620px;
 }
 
@@ -806,7 +812,9 @@ html:not(.no-js) [data-aos="circle"].aos-animate svg .circle__c1[data-v-3b3a748b
 .text[data-v-3b3a748b] h6,
 .text[data-v-3b3a748b] strong {
     margin: 0;
-    font: 700 18px/28px "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
     max-width: 85%;
 }
 
@@ -925,7 +933,9 @@ html:not(.no-js) [data-aos="circle"].aos-animate svg .circle__c1[data-v-3b3a748b
 }
 
 .content__title[data-v-3b3a748b] {
-    font: 700 54px/48px "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 48px;
     line-height: 1;
     max-width: 80%;
     margin-top: -7px;

@@ -4,7 +4,8 @@
 
 .poster[data-v-30b88dba] {
     padding-top: 152px;
-    font: 16px/26px "Fatum", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .poster__wrapper[data-v-30b88dba] {
@@ -21,7 +22,9 @@
 }
 
 .poster__title[data-v-30b88dba] {
-    font: 700 54px/59px "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
     color: #fff;
     max-width: 300px;
 }
@@ -409,7 +412,9 @@
 }
 
 .text__title[data-v-d725b140] {
-    font: 700 18px/28px "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
     color: #fff;
     max-width: 50%
 }
@@ -421,7 +426,8 @@
 }
 
 .text__content[data-v-d725b140] {
-    font: 16px/26px "Fatum", Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 26px;
     color: #a4a4a4;
     margin-top: 30px;
     -moz-column-count: 2;
@@ -525,7 +531,8 @@
 .what[data-v-52fb16b2] {
     margin: 96px 0 156px;
     color: #fff;
-    font: 16px/26px "Fatum", Arial, Helvetica, sans-serif
+    font-size: 16px;
+    line-height: 26px;
 }
 
 .what__bottom[data-v-52fb16b2] {
@@ -533,7 +540,9 @@
 }
 
 .what__title[data-v-52fb16b2] {
-    font: 700 54px/59px "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 59px;
     color: #fff;
     margin-top: 11px
 }
@@ -582,7 +591,9 @@
 }
 
 .card__title[data-v-52fb16b2] {
-    font: 700 12px/18px "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
     color: #fff;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -675,7 +686,9 @@
     }
 
     .what__more[data-v-52fb16b2] {
-        font: 700 11px/18px "Fatum", Arial, Helvetica, sans-serif;
+        font-weight: 700;
+        font-size: 11px;
+        line-height: 18px;
         text-transform: uppercase;
         color: #fff;
         letter-spacing: 2px

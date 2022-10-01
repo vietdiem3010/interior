@@ -1,6 +1,6 @@
 .head[data-v-0e9c1dda] {
     padding-top: 144px;
-    font: 16px/26px "Fatum", Arial, Helvetica, sans-serif;
+    font-size: 16px;
     color: rgba(28, 28, 28, 0.6);
     margin-bottom: 80px;
 }
@@ -208,7 +208,8 @@
 }
 
 .clients__title[data-v-0e9c1dda] {
-    font: 700 54px/1 "Avanti", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 54px;
     color: #363636;
 }
 
