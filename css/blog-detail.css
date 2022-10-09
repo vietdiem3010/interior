@@ -2217,3 +2217,11 @@ body.lang-ua .circle__span[data-v-768b5034] {
 .footer_type_2 .footer__dev a:after {
     background-color: rgba(28, 28, 28, .9)
 }
+.gallery p {
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+.gallery h3 {
+    margin: 50px 0;
+}
