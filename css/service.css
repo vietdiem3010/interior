@@ -332,7 +332,10 @@
 }
 
 .play__btn[data-v-6687dbdd] {
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 222px;
     height: 222px;
     border-radius: 50%;
