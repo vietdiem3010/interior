@@ -761,7 +761,7 @@ html:not(.no-js) [data-aos="circle"].aos-animate svg .circle__c1[data-v-768b5034
 }
 
 .back__text[data-v-768b5034]:nth-child(2) {
-    margin-top: -16px;
+    margin-top: -12px;
     transform: translate3d(0, 30px, 1px) rotate(12deg);
     visibility: hidden;
 }
