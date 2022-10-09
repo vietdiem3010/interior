@@ -1228,7 +1228,9 @@ body.lang-ua .circle__span[data-v-4ea7cf5f] {
   margin: auto;
 }
 .about-mobile .head__title[data-v-4ea7cf5f] {
-  font: 700 54px/59px "Avanti", sans-serif;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 59px;
   color: #1c1c1c;
   max-width: 650px;
 }
@@ -3455,7 +3457,9 @@ svg .circle__c2.back[data-v-30c09de4] {
 }
 
 .calc .modal__title {
-  font: 700 38px/38px "Avanti", sans-serif;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 38px;
   color: #1c1c1c;
   max-width: 300px;
   margin: 0 auto;
@@ -3573,7 +3577,6 @@ svg .circle__c2.back[data-v-30c09de4] {
 }
 
 .calc .modal .form__text {
-  font-family: "Fatum";
   font-style: normal;
   font-size: 9px;
   line-height: 22px;
@@ -4008,12 +4011,10 @@ svg .circle__c2.back[data-v-30c09de4] {
 
 .cont__inner[data-v-05bc5bc9] {
   text-align: center;
-  width: 360px;
   position: relative;
 }
 
 .cont__title[data-v-05bc5bc9] {
-  font-family: "Avanti";
   font-weight: 700;
   font-size: 34px;
   line-height: 37px;
