@@ -160,7 +160,7 @@
     height: 100%
 }
 
-.video__poster video[data-v-58ec45d5] {
+.video__poster img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
