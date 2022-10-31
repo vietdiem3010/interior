@@ -1,14 +1,11 @@
 .card[data-v-dfac654c] {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
   margin-bottom: 10px;
-}
-.card[data-v-dfac654c]:last-child {
-  margin-bottom: 0;
 }
 .card__col[data-v-dfac654c] {
   min-width: 171px;
-  max-width: 206px;
+  width: 50%;
 }
 .card__prop[data-v-dfac654c] {
   font-weight: 700;
