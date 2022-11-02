@@ -3043,7 +3043,6 @@ body.lang-ua .circle__span[data-v-4ea7cf5f] {
   vertical-align: middle;
   transition: opacity 0.5s ease;
   opacity: 0.3;
-  overflow: hidden;
 }
 @media screen and (min-width: 1200px) {
   .menu__row[data-v-ec06e7a2]:hover:after,
