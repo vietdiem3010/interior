@@ -11,7 +11,9 @@
 }
 
 .head__title[data-v-0e9c1dda] {
-    font: 700 54px/59px "Avanti", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59px;
     color: #1c1c1c;
     max-width: 650px;
 }

@@ -112,7 +112,9 @@ html:not(.no-js) [data-aos="line"].aos-animate[data-v-a78b91a0] {
 }
 
 .cases .head_seo[data-v-a78b91a0] h1 {
-    font: 700 54px/59px "Avanti", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59px;
     color: #1c1c1c;
     max-width: 570px;
     display: block;
@@ -121,7 +123,9 @@ html:not(.no-js) [data-aos="line"].aos-animate[data-v-a78b91a0] {
 
 @media (max-width: 960px) {
     .cases .head_seo[data-v-a78b91a0] h1 {
-        font: 700 34px/40px "Avanti", sans-serif;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 40px;
     }
 }
 
@@ -160,11 +164,13 @@ html:not(.no-js) [data-aos="line"].aos-animate[data-v-a78b91a0] {
 }
 
 .cases .head__title span[data-v-a78b91a0] {
-    font: 700 54px/59px "Avanti", sans-serif;
     color: #1c1c1c;
     max-width: 570px;
     display: block;
     letter-spacing: -0.45px;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59px;
 }
 
 .cases .head__info[data-v-a78b91a0] {
@@ -178,7 +184,9 @@ html:not(.no-js) [data-aos="line"].aos-animate[data-v-a78b91a0] {
 .cases .head .info__number[data-v-a78b91a0] {
     display: inline-block;
     vertical-align: bottom;
-    font: 700 54px/42px "Avanti", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 42px;
     color: #d0cfcb;
     text-transform: uppercase;
     letter-spacing: 3px;

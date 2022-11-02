@@ -22,7 +22,9 @@
 }
 
 .poster__title[data-v-00fa7c11] {
-    font: 700 54px/59px "Avanti", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59px;
     max-width: 650px;
 }
 
@@ -132,7 +134,9 @@
 }
 
 .v__title[data-v-76ae12d1] {
-    font: 700 54px/59px "Avanti", sans-serif;
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 59px;
     max-width: 650px;
 }
 
@@ -324,7 +328,6 @@
 }
 
 .map__title[data-v-4708dfea] {
-    font-family: Avanti;
     font-weight: 700;
     font-size: 36px;
     color: #fff;
@@ -418,7 +421,6 @@
 }
 
 .map__message-title[data-v-4708dfea] {
-    font-family: Avanti;
     font-weight: 700;
     font-size: 26px;
     color: #fff;
@@ -489,7 +491,9 @@
 }
 
 .about__title[data-v-5ae3b630] {
-    font: 700 43px/59px "Avanti", sans-serif;
+    font-size: 43px;
+    font-weight: 700;
+    line-height: 59px;
     max-width: 650px;
 }
 
