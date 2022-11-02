@@ -106,7 +106,9 @@ html:not(.no-js) [data-aos="line"].aos-animate[data-v-a78b91a0] {
 }
 
 .cases .head_seo[data-v-a78b91a0] {
-    font: 400 14px/22px "Fatum", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
     color: #1c1c1c;
     opacity: 0.6;
 }
@@ -200,7 +202,9 @@ html:not(.no-js) [data-aos="line"].aos-animate[data-v-a78b91a0] {
 
 .cases .head .info__label span[data-v-a78b91a0] {
     display: block;
-    font: 400 9px/16px "Fatum", sans-serif;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 16px;
     color: #1c1c1c;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -212,7 +216,9 @@ html:not(.no-js) [data-aos="line"].aos-animate[data-v-a78b91a0] {
 }
 
 .cases .head .info__text[data-v-a78b91a0] {
-    font: 400 14px/22px "Fatum", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
     color: #1c1c1c;
     opacity: 0.6;
     margin-top: 12px;
@@ -684,7 +690,9 @@ html:not(.no-js) [data-aos="line"].aos-animate[data-v-a78b91a0] {
 }
 
 .cases .item__name[data-v-a78b91a0] {
-    font: 700 14px/22px "Fatum", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
     color: #363636;
     text-transform: uppercase;
     letter-spacing: 1px;
@@ -695,7 +703,9 @@ html:not(.no-js) [data-aos="line"].aos-animate[data-v-a78b91a0] {
 }
 
 .cases .item__square span[data-v-a78b91a0] {
-    font: 400 11px/25px "Fatum", sans-serif;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 25px;
     color: #1c1c1c;
     text-transform: uppercase;
     letter-spacing: 2px;

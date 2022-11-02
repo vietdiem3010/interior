@@ -215,7 +215,9 @@
 
 .vi__request[data-v-225104c2] {
     display: inline-block;
-    font: 700 11px/18px "Fatum", sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 18px;
     color: #fff;
     letter-spacing: 3px;
     text-transform: uppercase;
@@ -413,7 +415,6 @@
 }
 
 .map__message-subtitle[data-v-4708dfea] {
-    font-family: AGFatumC;
     font-weight: Regular;
     font-size: 11px;
     color: #fff;
@@ -434,7 +435,6 @@
 }
 
 .map__message-link[data-v-4708dfea] {
-    font-family: AGFatumC;
     font-weight: 700;
     font-size: 11px;
     color: #fff;

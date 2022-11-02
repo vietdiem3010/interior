@@ -23,7 +23,9 @@
 
 .similar__btn[data-v-768b5034] {
     display: inline-block;
-    font: 700 11px/18px "Fatum", sans-serif;
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 18px;
     color: #1c1c1c;
     letter-spacing: 2px;
     text-transform: uppercase;
