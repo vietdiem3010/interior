@@ -4188,3 +4188,11 @@ svg .circle__c2.back[data-v-30c09de4] {
   height: auto !important;
   max-width: 100%;
 }
+.gallery p {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.gallery h3 {
+  margin: 50px 0;
+}
