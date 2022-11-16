@@ -66,6 +66,96 @@
           </div>
         </div>
       </div>
+      
+    
+    <div class="cases__filters" data-v-a78b91a0>
+      <div class="filter-buttons">
+        Danh mục
+      </div>
+      <div class="filters" data-v-a78b91a0>
+        <a
+          href="/en/cases/"
+          type="button"
+          aria-label="All projects"
+          class="filters__filter nuxt-link-active"
+          data-v-a78b91a0
+        >
+          <div class="filters__line" data-v-a78b91a0>
+            <span data-v-a78b91a0>.</span>
+            <span data-v-a78b91a0>All projects</span>
+          </div>
+          <div class="filters__line" data-v-a78b91a0>
+            <span data-v-a78b91a0>.</span>
+            <span data-v-a78b91a0>All projects</span>
+          </div>
+        </a>
+        <a
+          href="/en/cases/lobby/"
+          aria-current="page"
+          type="button"
+          aria-label="Lobby"
+          class="filters__filter nuxt-link-exact-active nuxt-link-active filters__filter_active"
+          data-v-a78b91a0
+        >
+          <div class="filters__line" data-v-a78b91a0>
+            <span data-v-a78b91a0>.</span>
+            <span data-v-a78b91a0>Lobby</span>
+          </div>
+          <div class="filters__line" data-v-a78b91a0>
+            <span data-v-a78b91a0>.</span>
+            <span data-v-a78b91a0>Lobby</span>
+          </div>
+        </a>
+        <a
+          href="/en/cases/commercial-real-estate/"
+          type="button"
+          aria-label="Commercial property"
+          class="filters__filter"
+          data-v-a78b91a0
+        >
+          <div class="filters__line" data-v-a78b91a0>
+            <span data-v-a78b91a0>.</span>
+            <span data-v-a78b91a0>Commercial property</span>
+          </div>
+          <div class="filters__line" data-v-a78b91a0>
+            <span data-v-a78b91a0>.</span>
+            <span data-v-a78b91a0>Commercial property</span>
+          </div>
+        </a>
+        <a
+          href="/en/cases/architecture/"
+          type="button"
+          aria-label="Architecture"
+          class="filters__filter"
+          data-v-a78b91a0
+        >
+          <div class="filters__line" data-v-a78b91a0>
+            <span data-v-a78b91a0>.</span>
+            <span data-v-a78b91a0>Architecture</span>
+          </div>
+          <div class="filters__line" data-v-a78b91a0>
+            <span data-v-a78b91a0>.</span>
+            <span data-v-a78b91a0>Architecture</span>
+          </div>
+        </a>
+        <a
+          href="/en/cases/residental-interiors/"
+          type="button"
+          aria-label="Residental interiors"
+          class="filters__filter"
+          data-v-a78b91a0
+        >
+          <div class="filters__line" data-v-a78b91a0>
+            <span data-v-a78b91a0>.</span>
+            <span data-v-a78b91a0>Residental interiors</span>
+          </div>
+          <div class="filters__line" data-v-a78b91a0>
+            <span data-v-a78b91a0>.</span>
+            <span data-v-a78b91a0>Residental interiors</span>
+          </div>
+        </a>
+      </div>
+    </div>
       <div class="list" data-v-a40c411c>
         <a href="/en/blog/kakie-ofisy-zhdut-nas-v-2022-godu/" class="card" data-v-64ef2455 data-v-a40c411c>
           <div class="card__image" data-v-64ef2455>
@@ -2421,6 +2511,14 @@
     </div>
   </main>
   <script src="../interior/js/script.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".filter-buttons").on("click", function () {
+        $(this).parent().find('.filters').toggleClass('filters_show');
+        $(this).parent().toggleClass('show-filter');
+      });
+    });
+  </script>
 </body>
 
 </html>
